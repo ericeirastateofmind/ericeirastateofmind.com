@@ -1,5 +1,6 @@
 <!-- Footer -->
 <footer id="footer">
+  {% comment %}
   <ul class="icons">
     {% for socloc in site.social %}
     {% if socloc[1] %}
@@ -13,6 +14,7 @@
     {% endif %}
     {% endfor %}
   </ul>
+  {% endcomment %}
   <ul class="copyright">
     <li>&copy; {% assign thisyear = site.time | date: "%Y" %}
     {% if site.first_published %}
@@ -21,7 +23,5 @@
     {% endif %}
     {{ thisyear }}
     {% if site.owner %}{{ site.owner }}{% else %}{{ site.title }}{% endif %}</li>
-    <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
-    <li>Built with: <a href="http://jekyllrb.com" target="_blank">Jekyll</a></li>
   </ul>
 </footer>
