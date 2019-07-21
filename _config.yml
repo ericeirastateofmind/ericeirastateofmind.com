@@ -3,6 +3,7 @@ title: Ericeira State Of Mind
 description: |
   Charming apartment in Ericeira with beautiful sea view, by the beach
 owner: Ericeira State Of Mind # or company name
+thumbnail: images/site-thumbnail.jpg
 first_published: 2019
 email: ericeirastateofmind@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
